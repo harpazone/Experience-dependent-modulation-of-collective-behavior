@@ -65,9 +65,9 @@ close all;clear all;
 folderpath = 'put your folder here';
 
 
-SAVE = 0; 
+SAVE = 1; 
 PLOT = 1;
-MOVIE = '5_20_5';
+MOVIE = 0;
 % MOVIE = 0;
 %.................Main Function.................
 
