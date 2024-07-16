@@ -63,6 +63,7 @@
 
 close all;clear all; 
 folderpath = 'put your folder here';
+addpath(folderpath);
 
 
 SAVE = 1; 
@@ -147,6 +148,7 @@ close all; clear all;
 
 
 folderpath = 'add your folder here';
+addpath(folderpath);
 
 sampling_rate = 50; % should match simulation code (default is 50Hz)
 Nmin = 5; % low density
