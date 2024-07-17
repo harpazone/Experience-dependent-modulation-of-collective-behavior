@@ -99,7 +99,7 @@ ModelType = 'traj_replay';
 vert_size = BL; % fish vertical size
 
 % load recorded response function
-load([loadpath,'5 (raised 5)fitted_response.mat']);
+load([loadpath,'5 fitted_response.mat']);
 p1 = mdlp.Coefficients.Estimate;
 p0 = 0.5;
 
